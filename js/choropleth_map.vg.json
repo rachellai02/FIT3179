@@ -28,9 +28,8 @@
               "data": {
                 "url": "https://github.com/rachellai02/FIT3179/blob/main/data/children-who-are-overweight-sdgs.csv"
               },
-              "key": "Entity",
-              "fields": ["Indicator:Overweight prevalence among children under 5 years of age (% weight-for-height >+2 SD), model-based estimates"]
-            }
+              "key": "Country",
+              "fields": ["Indicator"]            }
           }
         ],
         "mark": {"type": "geoshape", "stroke": "white"},
