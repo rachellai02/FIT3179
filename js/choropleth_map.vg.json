@@ -18,21 +18,19 @@
               "url": "https://raw.githubusercontent.com/rachellai02/FIT3179/master/data/share-of-adults-defined-as-obese.csv"
             },
             "key": "Country",
-            "fields": ["Indicator"]
+            "fields": ["Percentage"]
           }
-        },
-        {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
+        }
       ],
       "mark": {"type": "geoshape"},
       "encoding": {
         "color": {
-          "field": "Indicator",
-          "type": "quantitative",
-          "scale": {"type": "log"}
+          "field": "Percentage",
+          "type": "quantitative"
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "Indicator", "type": "quantitative"}
+          {"field": "Percentage", "type": "quantitative"}
         ]
       }
     },
@@ -49,7 +47,7 @@
               "url": "https://raw.githubusercontent.com/rachellai02/FIT3179/master/data/share-of-adults-defined-as-obese.csv"
             },
             "key": "Country",
-            "fields": ["Indicator"]
+            "fields": ["Percentage"]
           }
         },
         {
@@ -57,7 +55,7 @@
           "as": "note"
         },
         {
-          "filter": "datum.Indicator == null"
+          "filter": "datum.Percentage == null"
         }
       ],
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
