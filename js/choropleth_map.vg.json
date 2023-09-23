@@ -59,7 +59,7 @@
             "domain": [10, 20, 30, 40]
           },
           "legend": {
-            "title": "Percentage of Adults with Obesity"
+            "title": "Percentage of Adults with Obesity (%)"
           }
         },
         "tooltip": [
