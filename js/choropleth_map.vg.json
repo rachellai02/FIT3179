@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Adults with obesity of each country in 2016",
+  "title": "Share of adults with obesity of each country in 2016",
   "width": 800,
   "height": 400,
   "projection": {"type": "equalEarth"},
