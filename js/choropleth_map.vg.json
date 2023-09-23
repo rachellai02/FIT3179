@@ -15,7 +15,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/rachellai02/FIT3179/master/data/children-who-are-overweight-sdgs.csv"
+              "url": "https://raw.githubusercontent.com/rachellai02/FIT3179/master/data/share-of-adults-defined-as-obese"
             },
             "key": "Country",
             "fields": ["Indicator"]
