@@ -49,7 +49,11 @@
           }
         }
       ],
-      "mark": {"type": "geoshape"},
+      "mark": {
+        "type": "geoshape", 
+        "stroke": "whitesmoke",
+        "strokeWidth": 0.4
+        },
       "encoding": {
         "color": {
           "field": "Percentage",
