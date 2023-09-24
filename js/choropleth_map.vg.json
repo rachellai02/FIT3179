@@ -55,7 +55,7 @@
           "field": "Percentage",
           "type": "quantitative",
           "scale": {
-            "type": "log",
+            "type": "threshold",
             "domain": [10, 20, 30, 40]
           },
           "legend": {
